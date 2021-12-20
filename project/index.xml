@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Xinyu Lian</title>
+    <link>https://example.com/project/</link>
+      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Nov 2021 20:41:21 -0600</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://example.com/project/</link>
+    </image>
+    
+    <item>
+      <title>Linux-like Kernel</title>
+      <link>https://example.com/project/system-kernel/</link>
+      <pubDate>Tue, 09 Nov 2021 20:41:21 -0600</pubDate>
+      <guid>https://example.com/project/system-kernel/</guid>
+      <description>&lt;p&gt;This is the final project for my ECE391 course taken in UIUC. I am fortunated to work with wonderful teammates: Jiaqi Lou, Zhongbo Zhu and Tianyu Liu. In this project, we develop the core of an operating system.
+If you want to take a look at the code, please visit: &lt;a href=&#34;https://github.com/Alex-Lian/ECE-391-final-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Alex-Lian/ECE-391-final-project&lt;/a&gt;
+The following part are some demos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;boot-animation&#34;&gt;Boot Animation&lt;/h3&gt;
+&lt;p&gt;we can also see the desktop and the status bar in the buttom with location and time.
+&lt;img src=&#34;ECE391_demo/boot_animation.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cursor-display&#34;&gt;Cursor Display&lt;/h3&gt;
+&lt;p&gt;The self-designed cursor can open a new terminal and close it smoothly.
+&lt;img src=&#34;ECE391_demo/cursor_display.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;terminal&#34;&gt;Terminal&lt;/h3&gt;
+&lt;p&gt;The terimal can continue to run the program when it is minimized.
+&lt;img src=&#34;ECE391_demo/terminal.gif&#34; alt=&#34;show&#34; /&gt;
+The terminal can support code completion and history buffer.
+&lt;img src=&#34;ECE391_demo/history_buf.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;operation&#34;&gt;Operation&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;ECE391_demo/basic_operation.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;signal&#34;&gt;Signal&lt;/h3&gt;
+&lt;p&gt;We can use “CRTL+C” to terminal the current program, which is the signal part in linux kernel.
+&lt;img src=&#34;ECE391_demo/signal.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shortest Route back Home</title>
+      <link>https://example.com/project/example/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example/</guid>
+      <description>&lt;p&gt;Hello everyone. This is my ECE385 Final Project @ UIUC.
+I am fortunated to work with Tianyu Liu and we won the Best design award.
+If you are interested in the final project, you can visited &lt;a href=&#34;https://www.youtube.com/watch?v=ISPvGTYFDGc,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=ISPvGTYFDGc,&lt;/a&gt; which is a rough demo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
