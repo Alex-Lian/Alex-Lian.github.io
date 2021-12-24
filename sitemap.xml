@@ -17,13 +17,10 @@
     <loc>https://example.com/project/</loc>
     <lastmod>2021-11-09T20:41:21-06:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/deep-learning/</loc>
-    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+    <loc>https://example.com/project/code-change-coverage/</loc>
+    <lastmod>2021-11-09T20:41:21-06:00</lastmod>
   </url><url>
-    <loc>https://example.com/project/example/</loc>
-    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://example.com/project/fpga-design/</loc>
     <lastmod>2021-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tag/academic/</loc>
@@ -36,6 +33,9 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/getting-started/</loc>

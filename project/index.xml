@@ -7,7 +7,7 @@
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Nov 2021 20:41:21 -0600</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hufe88386a4652b04536d0f4b6f3161350_24885_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://example.com/project/</link>
     </image>
@@ -45,10 +45,33 @@ The terminal can support code completion and history buffer.
     </item>
     
     <item>
+      <title>Scope of Code Change Impact</title>
+      <link>https://example.com/project/code-change-coverage/</link>
+      <pubDate>Tue, 09 Nov 2021 20:41:21 -0600</pubDate>
+      <guid>https://example.com/project/code-change-coverage/</guid>
+      <description>&lt;p&gt;This is the analysis system I developed independently for the impact of code changes during my internship at Zhejiang Wooduan Technology Co., Ltd. If you want to take a look at the code, please visit: &lt;a href=&#34;https://github.com/Alex-Lian/Tool-Scope_of_Code_Change_Impact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Alex-Lian/Tool-Scope_of_Code_Change_Impact&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following part are demos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;starter&#34;&gt;Starter&lt;/h3&gt;
+&lt;p&gt;I integrated all the code into one shell script. The UI interface will open directly.
+&lt;img src=&#34;ccc_demo/How to run.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;functions&#34;&gt;Functions&lt;/h3&gt;
+&lt;p&gt;The analysis system will show you different layers. And the methods in n-th layer will call the methods in n+1-th layer. For one method A, the system will show whether all the methods A calls have changes (The call here is generalized that includes all the situations like A-&amp;gt;B-&amp;gt;C-&amp;gt;D, we defines here A will call B, C, D)                &lt;br&gt;
+Green means new methods added, Red means methods deleted.
+&lt;img src=&#34;ccc_demo/Function.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;search&#34;&gt;Search&lt;/h2&gt;
+&lt;p&gt;The terimal can continue to run the program when it is minimized.
+&lt;img src=&#34;ccc_demo/Search.gif&#34; alt=&#34;show&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Shortest Route back Home</title>
-      <link>https://example.com/project/example/</link>
+      <link>https://example.com/project/fpga-design/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
+      <guid>https://example.com/project/fpga-design/</guid>
       <description>&lt;p&gt;Hello everyone. This is my ECE385 Final Project @ UIUC.
 I am fortunated to work with Tianyu Liu and we won the Best design award.
 If you are interested in the final project, you can visited &lt;a href=&#34;https://www.youtube.com/watch?v=ISPvGTYFDGc,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=ISPvGTYFDGc,&lt;/a&gt; which is a rough demo.&lt;/p&gt;
