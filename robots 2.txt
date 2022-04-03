@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://Alex-Lian.github.io/sitemap.xml
