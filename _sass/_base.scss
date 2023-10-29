@@ -62,9 +62,9 @@ img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
-  margin: 1.5em 0;
-  padding: 1em;
+  border-left: 2px solid var(--global-theme-color);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
   font-size: 1.2rem;
 
   p {
@@ -162,7 +162,8 @@ blockquote {
 // Profile
 
 .profile {
-  width: 100%;
+  margin-left: 1rem;
+  width: 40%;
 
   .more-info {
     margin-bottom: 5px;
@@ -184,9 +185,9 @@ blockquote {
   margin-right: 1rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 400px) {
   .profile {
-    width: 30%;
+    width: 25%;
 
     .address {
       p {
@@ -659,31 +660,44 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
-
+      margin-bottom: 1.2rem;
       .preview {
         width: 100%;
-        min-width: 80px;
+        min-width: 60px;
         max-width: 200px;
       }
 
       .abbr {
-        height: 2rem;
+        height: calc(100% / 4);
         margin-bottom: 0.5rem;
-
+        .artifact{
+          max-width: 2.7rem;
+          max-height: 2.7rem;
+          margin-top: 0.1rem;
+          margin-bottom: 0.1rem;
+        }
         abbr {
+          font-size: medium;
           display: inline-block;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
 
           a {
             color: white;
-
             &:hover {
               text-decoration: none;
             }
           }
+        }
+
+        .toappear {
+          display: inline-block;
+          background-color: rgb(95%, 90%, 95%);
+          color: var(--global-theme-color) !important;
+          border: 1px solid var(--global-theme-color);
+          margin-top: 0.1rem;
+          margin-bottom: 0.1rem;
         }
 
         .award {
@@ -726,13 +740,13 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-
+          border: 1.5px solid var(--global-text-color);
+          font-size: x-small;
+          padding-left: 0.6rem;
+          padding-right: 0.6rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
+          margin-left: 3px;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
