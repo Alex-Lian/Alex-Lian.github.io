@@ -18,5 +18,6 @@ I am a second-year [MSCS](https://cs.illinois.edu/academics/graduate/ms-program)
 
 I am generally interested in **Software Engineering**, **Machine Learning** and **System Reliability**.
 
+I am actively seeking a PhD position in SE/Sys/ML for 2024 fall.
 
 🙋 Feel free to send me an <a href="mailto:lian7@illinois.edu">email</a> if you are interested in my research.
